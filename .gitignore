@@ -1,0 +1,19 @@
+# Data (too large for git, keep local only)
+dataset/train/*.tsv
+dataset/test/*.tsv
+output/*.tsv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
