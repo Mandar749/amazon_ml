@@ -1,7 +1,7 @@
 ﻿import pandas as pd
 from pathlib import Path
 
-sub_path = Path("output/submission_final.tsv")
+sub_path = Path("output/matching_results.tsv")
 test_s1_path = Path("dataset/test/test_source1.tsv")
 
 print("=" * 60)

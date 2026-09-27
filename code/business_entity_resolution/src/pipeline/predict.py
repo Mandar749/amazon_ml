@@ -46,7 +46,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Inference pipeline for Business Entity Resolution")
     parser.add_argument("--test-dir", type=str, default="dataset/test", help="Path to test datasets")
     parser.add_argument("--model-path", type=str, default="output/lgbm_entity_resolver.joblib", help="Path to trained LightGBM model")
-    parser.add_argument("--output-path", type=str, default="output/submission.tsv", help="Path for output submission tsv")
+    parser.add_argument("--output-path", type=str, default="output/matching_results.tsv", help="Path for output submission tsv")
     parser.add_argument("--floor", type=float, default=0.85, help="Confidence floor threshold")
     parser.add_argument("--delta", type=float, default=0.03, help="Relative score delta margin from top candidate")
     parser.add_argument("--cap-per-source", type=int, default=3, help="Maximum matches allowed per source table")
