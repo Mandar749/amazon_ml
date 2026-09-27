@@ -20,3 +20,11 @@ Thumbs.db
 
 output/
 dataset/
+dataset/
+output/
+*.joblib
+*.tsv
+*.csv
+__pycache__/
+*.pyc
+.venv/
